@@ -1,0 +1,20 @@
+{
+  "name": "elysia",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "*",
+    "@elysiajs/static": "*",
+    "elysia": "*"
+  },
+  "scripts": {
+    "dev": "bun run --hot server.ts"
+  }
+}
